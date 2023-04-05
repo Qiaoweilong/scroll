@@ -1,0 +1,1614 @@
+<head>
+    <meta charset="utf-8">
+    <link rel="icon" href="/favicon.ico">
+    <meta name="viewport" content="width=device-width,initial-scale=1">
+    <meta name="theme-color" content="#000000">
+    <meta name="keywords" content="layer 2,ethereum,zero knowledge proof,scalability,ZKP,l2,EVM compatible、zk rollup">
+    <meta name="description" content="A native zkEVM layer 2 solution for Ethereum">
+    <meta name="twitter:card" content="summary_large_image">
+    <link rel="apple-touch-icon" href="/logo.png">
+    <link rel="manifest" href="/manifest.json">
+    <title>Scroll – Native zkEVM Layer 2 for Ethereum</title>
+    <!-- <script defer="defer"src="https://d33wubrfki0l68.cloudfront.net/js/9f811d6f0c9d19fb9a934f1b648884c9fb2a1b4b/static/js/main.6c737c61.js"></script> -->
+    <link href="./main.be0791d0.css" rel="stylesheet">
+    <link rel="stylesheet" type="text/css" href="/static/css/230.543226d1.chunk.css">
+    <style data-emotion="css" data-s=""></style>
+    <meta name="description" content="Native zkEVM Layer 2 for Ethereum" data-rh="true">
+    <meta property="og:title" content="Scroll - Native zkEVM Layer 2 for Ethereum" data-rh="true">
+    <meta property="og:description" content="Native zkEVM Layer 2 for Ethereum" data-rh="true">
+    <meta property="og:image" content="https://scroll.io/logo_for_og.png" data-rh="true">
+    <meta name="twitter:title" content="Scroll - Native zkEVM Layer 2 for Ethereum" data-rh="true">
+    <meta name="twitter:description" content="Native zkEVM Layer 2 for Ethereum" data-rh="true">
+    <meta name="twitter:image" content="https://scroll.io/logo_for_og.png" data-rh="true">
+</head>
+
+<body>
+    <noscript>You need to enable JavaScript to run this app.</noscript>
+    <div id="root">
+        <div class="App bg-white min-h-[100vh]">
+            <header
+                class="MuiPaper-root MuiPaper-elevation MuiPaper-elevation4 MuiAppBar-root MuiAppBar-colorPrimary MuiAppBar-positionFixed mui-fixed css-bj04js">
+                <div class="css-1xb3yu6">
+                    <div class="css-k3i4y">Scroll's Alpha Testnet is now live. <a href="/alpha" class="css-pof6ig">Try
+                            it!</a></div>
+                    <div class="MuiContainer-root MuiContainer-maxWidthLg css-q0lzbu"><a aria-current="page"
+                            class="flex active" href="/">
+                            <div class="items-center css-f5qk9k"><img
+                                    src="/static/media/logo_with_text.7c6cafcac81093d6f83b.png" class="h-[26px]"
+                                    alt="logo"></div>
+                        </a>
+                        <div class="MuiBox-root css-0">
+                            <div class="css-95g4uk"><a aria-current="page" class="css-1uvlq72 active" href="/">Home
+                                </a><a class="css-1uvlq72" href="/blog">Blog </a><a class="css-1uvlq72"
+                                    href="/team">Team </a><a class="css-1uvlq72" href="/join-us">Join Us </a></div>
+                        </div>
+                        <div class="MuiBox-root css-70qvj9"><a href="https://twitter.com/Scroll_ZKP" target="_blank"
+                                class="twitter css-1h1ec1p"></a><a href="https://discord.gg/scroll" target="_blank"
+                                class="discord css-1iq0so7"></a><a href="https://github.com/scroll-tech" target="_blank"
+                                class="gitHub css-1wu3skd"></a><a href="https://www.youtube.com/@Scroll_ZKP"
+                                target="_blank" class="YouTube css-1e1yj0f"></a><a
+                                class="MuiButtonBase-root MuiButton-root MuiButton-contained MuiButton-containedPrimary MuiButton-sizeMedium MuiButton-containedSizeMedium MuiButton-root MuiButton-contained MuiButton-containedPrimary MuiButton-sizeMedium MuiButton-containedSizeMedium css-1ccocow"
+                                tabindex="0" href="/alpha/">Join Alpha Testnet</a></div>
+                    </div>
+                </div>
+            </header>
+            <div class="MuiBox-root css-1iatin6">
+                <div class="MuiBox-root css-15ydeke">
+                    <div class="MuiBox-root css-fjwmo1">
+                        <h1 class="MuiTypography-root MuiTypography-h1 css-13g0rrm">The Native zkEVM Scaling Solution
+                            for Ethereum</h1>
+                        <h6 class="MuiTypography-root MuiTypography-subtitle1 css-hm1xk6">Scroll is a zkEVM-based
+                            zkRollup on Ethereum that enables native compatibility for existing Ethereum applications
+                            and tools.</h6><a
+                            class="MuiButtonBase-root MuiButton-root MuiButton-contained MuiButton-containedPrimary MuiButton-sizeMedium MuiButton-containedSizeMedium MuiButton-root MuiButton-contained MuiButton-containedPrimary MuiButton-sizeMedium MuiButton-containedSizeMedium css-xgg9cc"
+                            tabindex="0" href="/alpha/">Join Alpha Testnet</a>
+                    </div>
+                </div>
+                <div class="MuiBox-root css-15ydeke">
+                    <div class="MuiBox-root css-fjwmo1">
+                        <h1 class="MuiTypography-root MuiTypography-h1 css-13g0rrm">Technical Principles</h1>
+                        <h6 class="MuiTypography-root MuiTypography-subtitle1 css-i0fpny">Scroll aims to provide the
+                            best experience for developers and users.</h6>
+                    </div>
+                    <div class="wrapper MuiBox-root css-1xdhyk6">
+                        <div
+                            class="swiper swiper-initialized swiper-horizontal swiper-pointer-events swiper-backface-hidden">
+                            <div class="swiper-wrapper" style="transform: translate3d(0px, 0px, 0px);">
+                                <div class="swiper-slide swiper-slide-active" style="width: 402.333px;">
+                                    <div class="MuiBox-root css-10ichhp">
+                                        <picture>
+                                            <source srcset="/static/media/scalability.bedfb7dede0ef7f6f380.webp"
+                                                type="image/webp"><img alt="img"
+                                                src="data:image/png;base64,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"
+                                                webpsrc="/static/media/scalability.bedfb7dede0ef7f6f380.webp"
+                                                class="css-ls77wm">
+                                        </picture>
+                                        <hr class="MuiDivider-root MuiDivider-fullWidth css-kurtef">
+                                        <h6 class="MuiTypography-root MuiTypography-subtitle1 css-fl4iu9">Scalability
+                                        </h6>
+                                        <p class="MuiTypography-root MuiTypography-body1 css-618e93">Scroll processes
+                                            transactions off-chain, and posts succinct proofs of correctness on-chain.
+                                            This results in higher throughput and lower costs in comparison to the
+                                            Ethereum base layer.</p>
+                                    </div>
+                                </div>
+                                <div class="swiper-slide swiper-slide-next" style="width: 402.333px;">
+                                    <div class="MuiBox-root css-10ichhp">
+                                        <picture>
+                                            <source srcset="/static/media/EVM-equivalence.9947b6d2520eb902ea33.webp"
+                                                type="image/webp"><img alt="img"
+                                                src="/static/media/EVM-equivalence.ff9687bba270f9053f54.png"
+                                                webpsrc="/static/media/EVM-equivalence.9947b6d2520eb902ea33.webp"
+                                                class="css-ls77wm">
+                                        </picture>
+                                        <hr class="MuiDivider-root MuiDivider-fullWidth css-kurtef">
+                                        <h6 class="MuiTypography-root MuiTypography-subtitle1 css-fl4iu9">EVM
+                                            Equivalence</h6>
+                                        <p class="MuiTypography-root MuiTypography-body1 css-618e93">Developing on
+                                            Scroll feels the same as developing on Ethereum. Any EVM-compatible smart
+                                            contract can be effortlessly deployed to Scroll’s network.</p>
+                                    </div>
+                                </div>
+                                <div class="swiper-slide" style="width: 402.333px;">
+                                    <div class="MuiBox-root css-10ichhp">
+                                        <picture>
+                                            <source srcset="/static/media/security.ebcb990e5dec3a5ab793.webp"
+                                                type="image/webp"><img alt="img"
+                                                src="data:image/png;base64,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"
+                                                webpsrc="/static/media/security.ebcb990e5dec3a5ab793.webp"
+                                                class="css-ls77wm">
+                                        </picture>
+                                        <hr class="MuiDivider-root MuiDivider-fullWidth css-kurtef">
+                                        <h6 class="MuiTypography-root MuiTypography-subtitle1 css-fl4iu9">Security</h6>
+                                        <p class="MuiTypography-root MuiTypography-body1 css-618e93">Scroll’s protocol
+                                            is currently undergoing multiple third-party audits to ensure security.
+                                            Scroll also values transparency and is working to build its platform openly
+                                            and in collaboration with the community.</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div
+                                class="swiper-pagination swiper-pagination-clickable swiper-pagination-bullets swiper-pagination-horizontal swiper-pagination-lock">
+                                <span class="swiper-pagination-bullet swiper-pagination-bullet-active"></span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="MuiBox-root css-15ydeke">
+                    <div class="MuiBox-root css-fjwmo1">
+                        <h1 class="MuiTypography-root MuiTypography-h1 css-13g0rrm">Join the Scroll Testnet</h1>
+                        <h6 class="MuiTypography-root MuiTypography-subtitle1 css-1kwt3v">The future is here: interact
+                            with dApps,<br> deploy smart contracts, and explore L2 blocks on Scroll’s Testnet.</h6>
+                        <div class="MuiBox-root css-0"><a
+                                class="MuiButtonBase-root MuiButton-root MuiButton-contained MuiButton-containedPrimary MuiButton-sizeMedium MuiButton-containedSizeMedium MuiButton-root MuiButton-contained MuiButton-containedPrimary MuiButton-sizeMedium MuiButton-containedSizeMedium css-xgg9cc"
+                                tabindex="0" href="/alpha/">Join Alpha Testnet</a></div>
+                        <picture>
+                            <source srcset="/static/media/bridge-screenshot.a3464561f387d9ff3295.webp"
+                                type="image/webp"><img alt="img"
+                                src="/static/media/bridge-screenshot.09137f05eb1bdd3f64ef.jpg"
+                                webpsrc="/static/media/bridge-screenshot.a3464561f387d9ff3295.webp" class="css-gwm18t">
+                        </picture>
+                    </div>
+                </div>
+                <div class="roadmap-section MuiBox-root css-15ydeke">
+                    <div class="wrapper MuiBox-root css-aeot63">
+                        <div class="MuiBox-root css-1oz1fss">
+                            <h1 class="MuiTypography-root MuiTypography-h1 css-ukzfyk">Our journey so far</h1>
+                            <h6 class="MuiTypography-root MuiTypography-subtitle1 css-11h8cnq">After successfully
+                                building a zkEVM POC, we are now working on our <span style="font-weight: 600;">zkEVM
+                                    Testnet</span>. It is currently live and open to the public.</h6><a
+                                class="MuiButtonBase-root MuiButton-root MuiButton-contained MuiButton-containedPrimary MuiButton-sizeMedium MuiButton-containedSizeMedium MuiButton-root MuiButton-contained MuiButton-containedPrimary MuiButton-sizeMedium MuiButton-containedSizeMedium css-xgg9cc"
+                                tabindex="0" href="/alpha/">Join Alpha Testnet</a>
+                        </div>
+                        <ul class="css-1i6dpz5">
+                            <li class=" css-1qyrckj">
+                                <div class="MuiBox-root css-164zp1l"><img style="width: 40px;"
+                                        src="data:image/png;base64,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"
+                                        class=" css-sx3qn3"></div>
+                                <div class="MuiBox-root css-0">
+                                    <p class="MuiTypography-root MuiTypography-body1 css-1ibqvc7">Phase 1</p>
+                                    <h6 class="MuiTypography-root MuiTypography-subtitle1 css-1u7su48">zkEVM POC</h6>
+                                </div>
+                            </li>
+                            <li class=" css-1qyrckj">
+                                <div class="MuiBox-root css-164zp1l"><img style="width: 40px;"
+                                        src="data:image/png;base64,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"
+                                        class=" css-sx3qn3"></div>
+                                <div class="MuiBox-root css-0">
+                                    <p class="MuiTypography-root MuiTypography-body1 css-1ibqvc7">Phase 2</p>
+                                    <h6 class="MuiTypography-root MuiTypography-subtitle1 css-1u7su48">Pre-Alpha Testnet
+                                    </h6>
+                                </div>
+                            </li>
+                            <li class="active css-1qyrckj">
+                                <div class="MuiBox-root css-164zp1l"><img style="width: 40px;"
+                                        src="data:image/png;base64,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"
+                                        class="active css-sx3qn3"></div>
+                                <div class="MuiBox-root css-0">
+                                    <p class="MuiTypography-root MuiTypography-body1 css-1ibqvc7">Phase 3</p>
+                                    <h6 class="MuiTypography-root MuiTypography-subtitle1 css-1u7su48">Alpha Testnet
+                                    </h6>
+                                </div>
+                            </li>
+                            <li class=" css-1qyrckj">
+                                <div class="MuiBox-root css-164zp1l"></div>
+                                <div class="MuiBox-root css-0">
+                                    <p class="MuiTypography-root MuiTypography-body1 css-1ibqvc7">Phase 4</p>
+                                    <h6 class="MuiTypography-root MuiTypography-subtitle1 css-1u7su48">zkEVM Mainnet
+                                    </h6>
+                                </div>
+                            </li>
+                            <li class=" css-1qyrckj">
+                                <div class="MuiBox-root css-164zp1l"></div>
+                                <div class="MuiBox-root css-0">
+                                    <p class="MuiTypography-root MuiTypography-body1 css-1ibqvc7">Phase 5</p>
+                                    <h6 class="MuiTypography-root MuiTypography-subtitle1 css-1u7su48">Decentralized
+                                        Prover Network</h6>
+                                </div>
+                            </li>
+                            <li class=" css-1qyrckj">
+                                <div class="MuiBox-root css-164zp1l"></div>
+                                <div class="MuiBox-root css-0">
+                                    <p class="MuiTypography-root MuiTypography-body1 css-1ibqvc7">Phase 6</p>
+                                    <h6 class="MuiTypography-root MuiTypography-subtitle1 css-1u7su48">Decentralized
+                                        Sequencers</h6>
+                                </div>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="MuiBox-root css-15ydeke">
+                    <h1 class="MuiTypography-root MuiTypography-h1 css-13g0rrm">Scroll Blog</h1>
+                    <h6 class="MuiTypography-root MuiTypography-subtitle1 css-6ta70c">Learn about Scroll’s technology,
+                        research, and latest developments.</h6>
+                    <div class="swiper swiper-initialized swiper-horizontal swiper-pointer-events wrapper swiper-backface-hidden"
+                        style="margin-left:120px ;">
+                        <div class="swiper-wrapper" style="transform: translate3d(0px, 0px, 0px);">
+                            <div class="swiper-slide swiper-slide-active" style="width: 418.333px;">
+                                <div class=" MuiBox-root css-1jdqpz9">
+                                    <div class="small MuiBox-root css-1n47nxv">
+                                        <picture>
+                                            <source srcset="/imgs/homepage/blog/poster_10.webp" type="image/webp"><img
+                                                alt="img" src="/imgs/homepage/blog/poster_10.jpg"
+                                                webpsrc="/imgs/homepage/blog/poster_10.webp" class="css-ez8oci">
+                                        </picture>
+                                        <div class="small MuiBox-root css-2cnub6">
+                                            <h6 class="MuiTypography-root MuiTypography-subtitle1 small css-fual6w">
+                                                Announcing the Scroll Alpha Testnet on Goerli</h6>
+                                            <p class="MuiTypography-root MuiTypography-body2 small css-ezmheo">
+                                                2023-02-27 ・ Announcement</p>
+                                            <p class="MuiTypography-root MuiTypography-body1 small css-1rtxmbk">We are
+                                                excited to announce that our Alpha testnet is now live on Goerli.</p>
+                                            <button
+                                                class="MuiButtonBase-root MuiButton-root MuiButton-outlined MuiButton-outlinedSecondary MuiButton-sizeMedium MuiButton-outlinedSizeMedium MuiButton-root MuiButton-outlined MuiButton-outlinedSecondary MuiButton-sizeMedium MuiButton-outlinedSizeMedium small css-1mupzj0"
+                                                tabindex="0" type="button">Read More</button>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="swiper-slide swiper-slide-next" style="width: 418.333px;">
+                                <div class=" MuiBox-root css-1jdqpz9">
+                                    <div class="small MuiBox-root css-1n47nxv">
+                                        <picture>
+                                            <source srcset="/imgs/homepage/blog/poster_9.webp" type="image/webp"><img
+                                                alt="img" src="/imgs/homepage/blog/poster_9.jpg"
+                                                webpsrc="/imgs/homepage/blog/poster_9.webp" class="css-ez8oci">
+                                        </picture>
+                                        <div class="small MuiBox-root css-2cnub6">
+                                            <h6 class="MuiTypography-root MuiTypography-subtitle1 small css-fual6w">
+                                                Release Note for 0109 Upgrade</h6>
+                                            <p class="MuiTypography-root MuiTypography-body2 small css-ezmheo">
+                                                2023-01-13 ・ Announcement</p>
+                                            <p class="MuiTypography-root MuiTypography-body1 small css-1rtxmbk">This
+                                                release note describes the changes introduced in the testnet upgrade on
+                                                Jan 9.</p><button
+                                                class="MuiButtonBase-root MuiButton-root MuiButton-outlined MuiButton-outlinedSecondary MuiButton-sizeMedium MuiButton-outlinedSizeMedium MuiButton-root MuiButton-outlined MuiButton-outlinedSecondary MuiButton-sizeMedium MuiButton-outlinedSizeMedium small css-1mupzj0"
+                                                tabindex="0" type="button">Read More</button>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="swiper-slide" style="width: 418.333px;">
+                                <div class=" MuiBox-root css-1jdqpz9">
+                                    <div class="small MuiBox-root css-1n47nxv">
+                                        <picture>
+                                            <source srcset="/imgs/homepage/blog/poster_8.webp" type="image/webp"><img
+                                                alt="img" src="/imgs/homepage/blog/poster_8.jpg"
+                                                webpsrc="/imgs/homepage/blog/poster_8.webp" class="css-ez8oci">
+                                        </picture>
+                                        <div class="small MuiBox-root css-2cnub6">
+                                            <h6 class="MuiTypography-root MuiTypography-subtitle1 small css-fual6w">The
+                                                Anatomy of Proof Generation</h6>
+                                            <p class="MuiTypography-root MuiTypography-body2 small css-ezmheo">
+                                                2022-12-14 ・ Technical</p>
+                                            <p class="MuiTypography-root MuiTypography-body1 small css-1rtxmbk">A
+                                                technical deep dive into the computational costs of proof generation.
+                                            </p><button
+                                                class="MuiButtonBase-root MuiButton-root MuiButton-outlined MuiButton-outlinedSecondary MuiButton-sizeMedium MuiButton-outlinedSizeMedium MuiButton-root MuiButton-outlined MuiButton-outlinedSecondary MuiButton-sizeMedium MuiButton-outlinedSizeMedium small css-1mupzj0"
+                                                tabindex="0" type="button">Read More</button>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div
+                            class="swiper-pagination swiper-pagination-clickable swiper-pagination-bullets swiper-pagination-horizontal swiper-pagination-lock">
+                            <span class="swiper-pagination-bullet swiper-pagination-bullet-active"></span>
+                        </div>
+                    </div>
+                </div>
+                <div class="MuiBox-root css-8kmcxp">
+                    <div class="wrapper MuiBox-root css-iq2cbg">
+                        <div class="MuiBox-root css-1xmyx1a">
+                            <p class="MuiTypography-root MuiTypography-body1 css-o19ui2">Want to scale Ethereum
+                                together? Join us today</p>
+                            <p class="MuiTypography-root MuiTypography-body1 css-18y8f2p">Scroll is a team of passionate
+                                contributors around the globe. We value ideas and execution above all else. Join us
+                                today!</p>
+                            <div class="MuiBox-root css-69i1ev"><button
+                                    class="MuiButtonBase-root MuiButton-root MuiButton-outlined MuiButton-outlinedSecondary MuiButton-sizeMedium MuiButton-outlinedSizeMedium MuiButton-root MuiButton-outlined MuiButton-outlinedSecondary MuiButton-sizeMedium MuiButton-outlinedSizeMedium css-107s4f6"
+                                    tabindex="0" type="button">View Open Positions</button>
+                                <picture>
+                                    <source srcset="/static/media/rocket.6212676819996f7d4576.webp" type="image/webp">
+                                    <img alt="img" src="/static/media/rocket.79d4096de2b0cf64bd6a.png"
+                                        style="width: 60px;height: 60px;"
+                                        webpsrc="/static/media/rocket.6212676819996f7d4576.webp" class="css-4hizd4">
+                                </picture>
+                            </div>
+                        </div>
+                        <div class="MuiBox-root css-1xmyx1a">
+                            <p class="MuiTypography-root MuiTypography-body1 css-o19ui2">Want the latest updates?<br>
+                                Check out our social media</p>
+                            <p class="MuiTypography-root MuiTypography-body1 css-18y8f2p">Be part of our community and
+                                stay up to date with all things Scroll. Everyone who wants to build a decentralized
+                                future is welcome!</p>
+                            <div class="MuiBox-root css-2gw07p"><a href="https://twitter.com/Scroll_ZKP"
+                                    class="twitter css-vokfo6"></a><a href="https://discord.gg/scroll"
+                                    class="discord css-5e6zl1"></a><a href="https://github.com/scroll-tech"
+                                    class="gitHub css-aqevcd"></a><a href="https://www.youtube.com/@Scroll_ZKP"
+                                    class="YouTube css-34z9wu"></a></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="footer w-full bg-[#EB71060D]">
+                <footer
+                    class="text-md wrapper container box-border relative flex items-start justify-between !pt-[90px] !pb-[110px] mx-auto flex-col lg:flex-row">
+                    <div
+                        class="flex-1 w-full flex h-full items-center mb-[30px] lg:flex-col lg:items-start lg:justify-between">
+                        <a href="/" class="flex flex-1 lg:mb-[50px]">
+                            <div class="items-center css-f5qk9k"><img
+                                    src="/static/media/logo_with_text.7c6cafcac81093d6f83b.png" class="h-[26px]"
+                                    alt="logo"></div>
+                        </a>
+                        <div class="flex-1">
+                            <p class="font-display font-medium text-md">Version 3.0.25</p>
+                            <p class="font-display font-medium text-md">© Scroll Ltd 2023</p>
+                        </div>
+                    </div>
+                    <div class="flex flex-[2] justify-between w-full mb-[30px]">
+                        <ul class="mr-100px mt-20px flex-1 lg:(mt-0)">
+                            <li class="text-md mb-[8px] font-display font-medium">About Scroll</li>
+                            <li><a class="font-medium leading-[34px] text-body-title" href="/team"> Team</a></li>
+                            <li><a class="font-medium leading-[34px] text-body-title" href="/join-us"> Join Us</a></li>
+                            <li><a href="http://status.scroll.io/"
+                                    class="font-medium leading-[34px] text-body-title">Health Status</a></li>
+                        </ul>
+                        <ul class="mr-100px mt-20px flex-1 lg:(mt-0)">
+                            <li class="text-md mb-[8px] font-display font-medium">Resources</li>
+                            <li><a class="font-medium leading-[34px] text-body-title" href="/blog"> Blog</a></li>
+                            <li><a href="https://guide.scroll.io/"
+                                    class="font-medium leading-[34px] text-body-title">User Guide</a></li>
+                            <li><a href="https://scrollzkp.notion.site/Scroll-Brand-Assets-PUBLIC-8522d7dbe4c745579d3e3b14f3bbecc0"
+                                    class="font-medium leading-[34px] text-body-title">Press Kit</a></li>
+                        </ul>
+                    </div>
+                    <div class="flex-1 w-full ">
+                        <div class="relative">
+                            <p class="text-md mb-[14px] font-display font-medium">Follow Us</p>
+                            <div class="flex  my-[20px]"><a class="flex mr-[36px] items-center text-body-title"
+                                    href="https://twitter.com/Scroll_ZKP" target="_blank" rel="noreferrer"><img
+                                        alt="Twitter" src="/imgs/footer/twitter.svg"
+                                        class="w-[20px] mr-[8px]">Twitter</a><a
+                                    class="flex mr-[36px] items-center text-body-title" href="https://discord.gg/scroll"
+                                    target="_blank" rel="noreferrer"><img alt="Discord" src="/imgs/footer/discord.svg"
+                                        class="w-[20px] mr-[8px]">Discord</a><a
+                                    class="flex mr-[36px] items-center text-body-title"
+                                    href="https://github.com/scroll-tech" target="_blank" rel="noreferrer"><img
+                                        alt="GitHub" src="/imgs/footer/github.svg"
+                                        class="w-[20px] mr-[8px]">GitHub</a><a
+                                    class="flex mr-[36px] items-center text-body-title"
+                                    href="https://www.youtube.com/@Scroll_ZKP" target="_blank" rel="noreferrer"><img
+                                        alt="YouTube" src="/imgs/footer/youtube.svg"
+                                        class="w-[20px] mr-[8px]">YouTube</a></div>
+                            <div>
+                                <div class="flex flex-col mb-[20px] items-center rounded overflow-hidden lg:flex-row">
+                                    <input
+                                        class="w-full flex-shrink-0 rounded border h-[50px] text-base outline-none mb-[12px] pl-[24px] placeholder:text-charcoal-50  lg:w-[254px] lg:rounded-none lg:border-transparent lg:mb-0"
+                                        type="email" placeholder="Enter email address"><button
+                                        class="MuiButtonBase-root MuiButton-root MuiButton-contained MuiButton-containedPrimary MuiButton-sizeMedium MuiButton-containedSizeMedium MuiButton-root MuiButton-contained MuiButton-containedPrimary MuiButton-sizeMedium MuiButton-containedSizeMedium css-pa4v5d"
+                                        tabindex="0" type="button">Subscribe to Newsletter</button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </footer>
+            </div>
+        </div>
+    </div>
+    <style>
+        .css-bj04js {
+            transition: box-shadow 300ms cubic-bezier(0.4, 0, 0.2, 1) 0ms;
+            display: flex;
+            flex-direction: column;
+            width: 100%;
+            box-sizing: border-box;
+            flex-shrink: 0;
+            z-index: 1100;
+            top: 0px;
+            left: auto;
+            right: 0px;
+            color: rgb(255, 255, 255);
+            box-shadow: none;
+            position: sticky;
+            background: rgb(255, 255, 255);
+        }
+
+        .css-1xb3yu6 {
+            display: flex;
+            flex-direction: column;
+            position: sticky;
+            top: 0px;
+            width: 100%;
+            z-index: 10;
+            background-color: rgb(255, 255, 255);
+            border-bottom: 1px solid rgb(201, 203, 206);
+        }
+
+        .css-k3i4y {
+            flex-direction: column;
+            line-height: 2.6rem;
+            background: rgb(0, 166, 242);
+            text-align: center;
+            color: rgb(255, 255, 255);
+            /* font-size: 1.6rem; */
+            /* padding: -0.5rem;  */
+            display: inline-block;
+        }
+
+        .css-pof6ig {
+            font-weight: 700;
+        }
+
+        a {
+            color: inherit;
+            text-decoration: inherit;
+        }
+
+        .css-q0lzbu.MuiContainer-maxWidthLg {
+            max-width: 1300px;
+        }
+
+        .css-q0lzbu {
+            width: 100%;
+            margin-left: auto;
+            box-sizing: border-box;
+            margin-right: auto;
+            padding-left: 16px;
+            padding-right: 16px;
+            display: flex;
+            -webkit-box-pack: justify;
+            justify-content: space-between;
+            -webkit-box-align: center;
+            align-items: center;
+        }
+
+        .flex {
+            display: flex;
+        }
+
+        a {
+            color: inherit;
+            text-decoration: inherit;
+        }
+
+        .css-95g4uk {
+            display: flex;
+            flex-direction: row;
+            -webkit-box-pack: justify;
+            justify-content: space-between;
+            -webkit-box-align: center;
+            align-items: center;
+        }
+
+        .css-1uvlq72.active {
+            color: rgb(235, 113, 6);
+        }
+
+        .css-1uvlq72 {
+            font-size: 16px;
+            font-weight: 600;
+            padding-left: 25px;
+            padding-right: 25px px;
+            margin-left: 4px;
+            margin-right: 4px;
+            line-height: 82px;
+            position: relative;
+            color: rgb(51, 51, 51);
+        }
+
+        a {
+            color: inherit;
+            text-decoration: inherit;
+        }
+
+        .css-1uvlq72 {
+            font-size: 16px;
+            font-weight: 600;
+            padding-left: 25px;
+            padding-right: 25px;
+            margin-left: 4px;
+            margin-right: 4px;
+            line-height: 82px;
+            position: relative;
+            color: rgb(51, 51, 51);
+        }
+
+        .css-1uvlq72 {
+            font-size: 16px;
+            font-weight: 600;
+            padding-left: 25px;
+            padding-right: 25px;
+            margin-left: 4px;
+            margin-right: 4px;
+            line-height: 82px;
+            position: relative;
+            color: rgb(51, 51, 51);
+        }
+
+        .css-1uvlq72 {
+            font-size: 16px;
+            font-weight: 600;
+            padding-left: 25px;
+            padding-right: 25px;
+            margin-left: 4px;
+            margin-right: 4px;
+            line-height: 82px;
+            position: relative;
+            color: rgb(51, 51, 51);
+        }
+
+        .css-70qvj9 {
+            display: flex;
+            -webkit-box-align: center;
+            align-items: center;
+        }
+
+        .css-1h1ec1p {
+            height: 1.9rem;
+            width: 2.4rem;
+            margin-right: 2.2rem;
+            background: url(/imgs/media/twitter.png) center center / contain no-repeat;
+
+        }
+
+        .css-1iq0so7 {
+            height: 1.9rem;
+            width: 2.4rem;
+            margin-right: 2.2rem;
+            background: url(/imgs/media/discord.png) center center / contain no-repeat;
+        }
+
+        .css-1wu3skd {
+            height: 1.9rem;
+            width: 2.4rem;
+            margin-right: 2.2rem;
+            background: url(/imgs/media/github.png) center center / contain no-repeat;
+        }
+
+        .css-1e1yj0f {
+            height: 1.9rem;
+            width: 2.4rem;
+            margin-right: 2.2rem;
+            background: url(/imgs/media/youtube.png) center center / contain no-repeat;
+        }
+
+        .css-1ccocow {
+            display: inline-flex;
+            -webkit-box-align: center;
+            align-items: center;
+            -webkit-box-pack: center;
+            justify-content: center;
+            position: relative;
+            box-sizing: border-box;
+            -webkit-tap-highlight-color: transparent;
+            outline: 0px;
+            border: 0px;
+            margin: 0px;
+            cursor: pointer;
+            user-select: none;
+            vertical-align: middle;
+            appearance: none;
+            text-decoration: none;
+            font-family: Inter, system-ui, BlinkMacSystemFont, Roboto, "Helvetica Neue", "Segoe UI", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+            min-width: 64px;
+            border-radius: 6px;
+            transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1) 0ms, box-shadow 250ms cubic-bezier(0.4, 0, 0.2, 1) 0ms, border-color 250ms cubic-bezier(0.4, 0, 0.2, 1) 0ms, color 250ms cubic-bezier(0.4, 0, 0.2, 1) 0ms;
+            color: rgb(255, 255, 255);
+            background-color: rgb(235, 113, 6);
+            font-size: 16px;
+            font-weight: 600;
+            padding: 16px 28px;
+            text-transform: inherit;
+            width: max-content;
+            box-shadow: none;
+            line-height: 18px;
+        }
+
+
+
+        .css-1iatin6 {
+            text-align: center;
+        }
+
+        .css-15ydeke:nth-of-type(2n+1) {
+            background: rgb(255, 255, 255);
+        }
+
+        .css-15ydeke {
+            padding: 12rem 0px;
+        }
+
+        *,
+        :after,
+        :before {
+            --tw-border-spacing-x: 0;
+            --tw-border-spacing-y: 0;
+            --tw-translate-x: 0;
+            --tw-translate-y: 0;
+            --tw-rotate: 0;
+            --tw-skew-x: 0;
+            --tw-skew-y: 0;
+            --tw-scale-x: 1;
+            --tw-scale-y: 1;
+            --tw-scroll-snap-strictness: proximity;
+            --tw-ring-offset-width: 0px;
+            --tw-ring-offset-color: #fff;
+            --tw-ring-color: rgba(59, 130, 246, .5);
+            --tw-ring-offset-shadow: 0 0 #0000;
+            --tw-ring-shadow: 0 0 #0000;
+            --tw-shadow: 0 0 #0000;
+            --tw-shadow-colored: 0 0 #0000;
+        }
+
+        .css-1iatin6 {
+            text-align: center;
+        }
+
+        .css-13g0rrm {
+            font-family: Inter;
+            font-weight: 500;
+            font-size: 4rem;
+            line-height: 5.6rem;
+            letter-spacing: -0.26px;
+            cursor: default;
+            transition: all 0.15s ease-out 0s;
+            color: rgb(51, 51, 51);
+            max-width: 60rem;
+            text-align: center;
+            margin: 2rem auto 0px;
+        }
+
+        .css-hm1xk6 {
+            font-size: 1.6rem;
+            line-height: 3.2rem;
+            font-family: Inter, system-ui, BlinkMacSystemFont, Roboto, "Helvetica Neue", "Segoe UI", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+            font-weight: 400;
+            cursor: default;
+            transition: all 0.15s ease-out 0s;
+            color: rgb(51, 51, 51);
+            text-align: center;
+            margin: 1.4rem auto 3.6rem;
+            max-width: 61rem;
+        }
+
+        h6 {
+            display: block;
+            font-size: 0.67em;
+            margin-block-start: 2.33em;
+            margin-block-end: 2.33em;
+            margin-inline-start: 0px;
+            margin-inline-end: 0px;
+            font-weight: bold;
+        }
+
+        .css-xgg9cc {
+            display: inline-flex;
+            -webkit-box-align: center;
+            align-items: center;
+            -webkit-box-pack: center;
+            justify-content: center;
+            position: relative;
+            box-sizing: border-box;
+            -webkit-tap-highlight-color: transparent;
+            outline: 0px;
+            border: 0px;
+            margin: 0px;
+            cursor: pointer;
+            user-select: none;
+            vertical-align: middle;
+            appearance: none;
+            text-decoration: none;
+            font-family: Inter, system-ui, BlinkMacSystemFont, Roboto, "Helvetica Neue", "Segoe UI", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+            min-width: 64px;
+            border-radius: 6px;
+            transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1) 0ms, box-shadow 250ms cubic-bezier(0.4, 0, 0.2, 1) 0ms, border-color 250ms cubic-bezier(0.4, 0, 0.2, 1) 0ms, color 250ms cubic-bezier(0.4, 0, 0.2, 1) 0ms;
+            color: rgb(255, 255, 255);
+            background-color: rgb(235, 113, 6);
+            font-size: 16px;
+            font-weight: 600;
+            padding: 16px 28px;
+            text-transform: inherit;
+            width: max-content;
+            box-shadow: none;
+            line-height: 18px;
+        }
+
+
+
+
+        .bg-white {
+            --tw-bg-opacity: 1;
+            background-color: rgb(255 255 255/var(--tw-bg-opacity));
+        }
+
+        body {
+            -webkit-font-smoothing: antialiased;
+            -moz-osx-font-smoothing: grayscale;
+            -webkit-font-feature-settings: "calt" off;
+            font-feature-settings: "calt" off;
+            font-family: SF UI Text;
+            -webkit-font-variant-ligatures: no-contextual;
+            font-variant-ligatures: no-contextual;
+            margin: 0;
+        }
+
+        body {
+            line-height: inherit;
+        }
+
+        style attribute {
+            font-size: 62.5%;
+        }
+
+        :root {
+            --swiper-theme-color: #eb7106 !important;
+            --onboard-font-family-normal: "SF UI Text", "system-ui", "BlinkMacSystemFont", "Roboto", "Helvetica Neue", "Segoe UI", "Arial", "sans-serif", "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+            --onboard-primary-100: #fee7e030;
+            --onboard-primary-200: #f8c5a2;
+            --onboard-primary-300: #f2a364;
+            --onboard-primary-400: #f08c38;
+            --onboard-primary-500: #eb7106;
+            --onboard-font-size-7: 1.4rem;
+            --onboard-font-size-5: 1.6rem;
+            --onboard-spacing-4: 1.6rem;
+            --onboard-spacing-5: 0.8rem;
+        }
+
+        html {
+            -webkit-text-size-adjust: 100%;
+            font-family: Inter, ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Helvetica Neue, Arial, Noto Sans, sans-serif, Apple Color Emoji, Segoe UI Emoji, Segoe UI Symbol, Noto Color Emoji;
+            line-height: 1.5;
+            tab-size: 4;
+        }
+
+        *,
+        :after,
+        :before {
+            --tw-border-spacing-x: 0;
+            --tw-border-spacing-y: 0;
+            --tw-translate-x: 0;
+            --tw-translate-y: 0;
+            --tw-rotate: 0;
+            --tw-skew-x: 0;
+            --tw-skew-y: 0;
+            --tw-scale-x: 1;
+            --tw-scale-y: 1;
+            --tw-scroll-snap-strictness: proximity;
+            --tw-ring-offset-width: 0px;
+            --tw-ring-offset-color: #fff;
+            --tw-ring-color: rgba(59, 130, 246, .5);
+            --tw-ring-offset-shadow: 0 0 #0000;
+            --tw-ring-shadow: 0 0 #0000;
+            --tw-shadow: 0 0 #0000;
+            --tw-shadow-colored: 0 0 #0000;
+        }
+
+        *,
+        :after,
+        :before {
+            border: 0 solid #c9cbce;
+            box-sizing: border-box;
+        }
+
+        *,
+        :after,
+        :before {
+            --tw-border-spacing-x: 0;
+            --tw-border-spacing-y: 0;
+            --tw-translate-x: 0;
+            --tw-translate-y: 0;
+            --tw-rotate: 0;
+            --tw-skew-x: 0;
+            --tw-skew-y: 0;
+            --tw-scale-x: 1;
+            --tw-scale-y: 1;
+            --tw-scroll-snap-strictness: proximity;
+            --tw-ring-offset-width: 0px;
+            --tw-ring-offset-color: #fff;
+            --tw-ring-color: rgba(59, 130, 246, .5);
+            --tw-ring-offset-shadow: 0 0 #0000;
+            --tw-ring-shadow: 0 0 #0000;
+            --tw-shadow: 0 0 #0000;
+            --tw-shadow-colored: 0 0 #0000;
+        }
+
+        ::backdrop {
+            --tw-border-spacing-x: 0;
+            --tw-border-spacing-y: 0;
+            --tw-translate-x: 0;
+            --tw-translate-y: 0;
+            --tw-rotate: 0;
+            --tw-skew-x: 0;
+            --tw-skew-y: 0;
+            --tw-scale-x: 1;
+            --tw-scale-y: 1;
+            --tw-scroll-snap-strictness: proximity;
+            --tw-ring-offset-width: 0px;
+            --tw-ring-offset-color: #fff;
+            --tw-ring-color: rgba(59, 130, 246, .5);
+            --tw-ring-offset-shadow: 0 0 #0000;
+            --tw-ring-shadow: 0 0 #0000;
+            --tw-shadow: 0 0 #0000;
+            --tw-shadow-colored: 0 0 #0000;
+        }
+
+
+        .css-15ydeke:nth-of-type(2n) {
+            background: rgb(253, 241, 228);
+        }
+
+        .css-15ydeke {
+            padding: 12rem 0px;
+        }
+
+        div {
+            display: block;
+        }
+
+        .css-1iatin6 {
+            text-align: center;
+        }
+
+        .bg-white {
+            --tw-bg-opacity: 1;
+            background-color: rgb(255 255 255/var(--tw-bg-opacity));
+        }
+
+        .css-13g0rrm {
+            font-family: Inter;
+            font-weight: 500;
+            font-size: 4rem;
+            line-height: 5.6rem;
+            letter-spacing: -0.26px;
+            cursor: default;
+            transition: all 0.15s ease-out 0s;
+            color: rgb(51, 51, 51);
+            max-width: 60rem;
+            text-align: center;
+            margin: 2rem auto 0px;
+        }
+
+        blockquote,
+        dd,
+        dl,
+        figure,
+        h1,
+        h2,
+        h3,
+        h4,
+        h5,
+        h6,
+        hr,
+        p,
+        pre {
+            margin: 0;
+        }
+
+        .css-i0fpny {
+            font-size: 2rem;
+            line-height: 3.2rem;
+            font-family: Inter, system-ui, BlinkMacSystemFont, Roboto, "Helvetica Neue", "Segoe UI", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+            font-weight: 400;
+            cursor: default;
+            transition: all 0.15s ease-out 0s;
+            color: rgb(51, 51, 51);
+            text-align: center;
+            margin: 1.4rem auto 3.6rem;
+            max-width: 65rem;
+        }
+
+        .wrapper {
+            margin-left: 80px;
+            margin-right: auto;
+            max-width: 130rem;
+            overflow: hidden;
+            padding: 3rem 8rem 2.4rem;
+            width: 100%;
+        }
+
+        .swiper-pointer-events {
+            touch-action: pan-y;
+        }
+
+        .swiper {
+            list-style: none;
+            margin-left: auto;
+            margin-right: auto;
+            overflow: hidden;
+            padding: 0;
+            position: relative;
+            z-index: 1;
+        }
+
+        element.style {
+            transform: translate3d(0px, 0px, 0px);
+            transition-duration: 0ms;
+        }
+
+        .swiper-android .swiper-slide,
+        .swiper-wrapper {
+            -webkit-transform: translateZ(0);
+            transform: translateZ(0);
+        }
+
+        .swiper-wrapper {
+            box-sizing: initial;
+            display: flex;
+            height: 100%;
+            position: relative;
+            transition-property: -webkit-transform;
+            transition-property: transform;
+            transition-property: transform, -webkit-transform;
+            width: 100%;
+            z-index: 1;
+        }
+
+        element.style {
+            width: 350.333px;
+        }
+
+        .swiper-backface-hidden .swiper-slide {
+            -webkit-backface-visibility: hidden;
+            backface-visibility: hidden;
+            -webkit-transform: translateZ(0);
+            transform: translateZ(0);
+        }
+
+        .swiper-slide:first-of-type {
+            align-items: flex-start;
+        }
+
+        .swiper-slide {
+            flex-shrink: 0;
+            height: 100%;
+            position: relative;
+            transition-property: -webkit-transform;
+            transition-property: transform;
+            transition-property: transform, -webkit-transform;
+            width: 100%;
+        }
+
+        .swiper-slide {
+            display: flex;
+            flex-direction: column;
+        }
+
+        .swiper {
+            list-style: none;
+            margin-left: auto;
+            margin-right: auto;
+            overflow: hidden;
+            padding: 0;
+            position: relative;
+            z-index: 1;
+        }
+
+        .css-1iatin6 {
+            text-align: center;
+        }
+
+        .bg-white {
+            --tw-bg-opacity: 1;
+            background-color: rgb(255 255 255/var(--tw-bg-opacity));
+        }
+
+        .css-10ichhp {
+            width: 50vw;
+            height: 50rem;
+        }
+
+        .css-10ichhp {
+            width: 24rem;
+            height: 54rem;
+            margin: 0px px 0.8rem 0.8rem 0px;
+            background: rgb(255, 255, 255);
+            border-radius: 5px;
+            box-shadow: rgba(0, 0, 0, 0.15) 5px 5px 3px;
+        }
+
+        *,
+        :after,
+        :before {
+            --tw-border-spacing-x: 0;
+            --tw-border-spacing-y: 0;
+            --tw-translate-x: 0;
+            --tw-translate-y: 0;
+            --tw-rotate: 0;
+            --tw-skew-x: 0;
+            --tw-skew-y: 0;
+            --tw-scale-x: 1;
+            --tw-scale-y: 1;
+            --tw-scroll-snap-strictness: proximity;
+            --tw-ring-offset-width: 0px;
+            --tw-ring-offset-color: #fff;
+            --tw-ring-color: rgba(59, 130, 246, .5);
+            --tw-ring-offset-shadow: 0 0 #0000;
+            --tw-ring-shadow: 0 0 #0000;
+            --tw-shadow: 0 0 #0000;
+            --tw-shadow-colored: 0 0 #0000;
+        }
+
+        .css-ls77wm {
+            height: 8.600000000000001rem;
+            margin: 4.4rem auto;
+        }
+
+        audio,
+        canvas,
+        embed,
+        iframe,
+        img,
+        object,
+        svg,
+        video {
+            display: inline;
+            vertical-align: initial;
+        }
+
+        img,
+        video {
+            height: auto;
+            max-width: 100%;
+        }
+
+        .css-fl4iu9 {
+            margin: 5rem 0px 0.9rem;
+            font-size: 2rem;
+            line-height: 3.2rem;
+            font-family: Inter, system-ui, BlinkMacSystemFont, Roboto, "Helvetica Neue", "Segoe UI", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+            cursor: default;
+            transition: all 0.15s ease-out 0s;
+            text-align: center;
+            font-weight: 600;
+            color: rgb(51, 51, 51);
+        }
+
+        h6 {
+            display: block;
+            font-size: 0.67em;
+            margin-block-start: 2.33em;
+            margin-block-end: 2.33em;
+            margin-inline-start: 0px;
+            margin-inline-end: 0px;
+            font-weight: bold;
+        }
+
+        .css-618e93 {
+            margin: 0px 1.6rem;
+        }
+
+        .css-618e93 {
+            font-weight: 400;
+            font-size: 1.3rem;
+            /* line-height: 2.6rem; */
+            font-family: Inter, system-ui, BlinkMacSystemFont, Roboto, "Helvetica Neue", "Segoe UI", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+            cursor: default;
+            transition: all 0.15s ease-out 0s;
+            color: rgb(51, 51, 51);
+            margin: 0px 3rem;
+        }
+
+
+
+
+
+
+
+        .css-15ydeke.roadmap-section {
+            display: flex;
+        }
+
+        .css-aeot63 {
+            display: flex;
+            -webkit-box-pack: justify;
+            justify-content: space-between;
+        }
+
+        /* .wrapper {
+            margin-left: auto;
+            margin-right: auto;
+            max-width: 130rem;
+            overflow: hidden;
+            padding: 3rem 2.4rem 2.4rem;
+            width: 100%;
+        } */
+
+        .css-1oz1fss {
+            text-align: left;
+            max-width: 40.6rem;
+            margin-right: 4rem;
+        }
+
+        .css-ukzfyk {
+            text-align: left;
+        }
+
+        .css-11h8cnq {
+            text-align: left;
+        }
+
+        .css-11h8cnq {
+            font-size: 1.3rem;
+            /* line-height: 3.2rem; */
+            font-family: Inter, system-ui, BlinkMacSystemFont, Roboto, "Helvetica Neue", "Segoe UI", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+            font-weight: 400;
+            cursor: default;
+            transition: all 0.15s ease-out 0s;
+            /* text-align: center; */
+            margin: 1.4rem auto 3.6rem;
+            max-width: 38rem;
+            color: rgb(115, 115, 115);
+        }
+
+        .css-ukzfyk {
+            font-family: Inter;
+            font-weight: 500;
+            font-size: 3rem;
+            line-height: 5.6rem;
+            letter-spacing: -0.26px;
+            cursor: default;
+            transition: all 0.15s ease-out 0s;
+            color: rgb(51, 51, 51);
+            max-width: 60rem;
+            text-align: center;
+            margin: 2rem auto 0px;
+        }
+
+        .css-xgg9cc {
+            display: inline-flex;
+            -webkit-box-align: center;
+            align-items: center;
+            -webkit-box-pack: center;
+            justify-content: center;
+            position: relative;
+            box-sizing: border-box;
+            -webkit-tap-highlight-color: transparent;
+            outline: 0px;
+            border: 0px;
+            margin: 0px;
+            cursor: pointer;
+            user-select: none;
+            vertical-align: middle;
+            appearance: none;
+            text-decoration: none;
+            font-family: Inter, system-ui, BlinkMacSystemFont, Roboto, "Helvetica Neue", "Segoe UI", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+            min-width: 64px;
+            border-radius: 6px;
+            transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1) 0ms, box-shadow 250ms cubic-bezier(0.4, 0, 0.2, 1) 0ms, border-color 250ms cubic-bezier(0.4, 0, 0.2, 1) 0ms, color 250ms cubic-bezier(0.4, 0, 0.2, 1) 0ms;
+            color: rgb(255, 255, 255);
+            background-color: rgb(235, 113, 6);
+            font-size: 16px;
+            font-weight: 600;
+            padding: 16px 28px;
+            text-transform: inherit;
+            width: max-content;
+            box-shadow: none;
+            line-height: 18px;
+        }
+
+        .css-1oz1fss {
+            text-align: left;
+            max-width: 40.6rem;
+            margin-right: 4rem;
+        }
+
+        style attribute {
+            font-size: 62.5%;
+        }
+
+        .css-1qyrckj {
+            display: flex;
+            -webkit-box-align: center;
+            align-items: center;
+            height: 5.5rem;
+            border-bottom: 1px solid rgb(255, 202, 213);
+            position: relative;
+            z-index: 1;
+        }
+
+        .css-164zp1l {
+            text-align: right;
+            width: 10vw;
+            flex-shrink: 0;
+            margin-right: 20px;
+        }
+
+        .css-1ibqvc7 {
+            margin: 0px;
+            font-size: 1.6rem;
+            line-height: 2.6rem;
+            font-family: Inter, system-ui, BlinkMacSystemFont, Roboto, "Helvetica Neue", "Segoe UI", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+            cursor: default;
+            transition: all 0.15s ease-out 0s;
+            color: rgb(89, 89, 89);
+            font-weight: 600;
+            text-align: left;
+        }
+
+        .css-1i6dpz5 {
+            width: 65rem;
+            border-radius: 0.5rem;
+            box-shadow: rgba(0, 0, 0, 0.15) 5px 5px 3px;
+        }
+
+        .css-1qyrckj::after {
+            content: " ";
+            background: rgb(225, 244, 254);
+            position: absolute;
+            inset: 0px;
+            z-index: -1;
+        }
+
+        .css-1ibqvc7 {
+            margin: 0px;
+            font-size: 1rem;
+            line-height: 2.6rem;
+            font-family: Inter, system-ui, BlinkMacSystemFont, Roboto, "Helvetica Neue", "Segoe UI", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+            cursor: default;
+            transition: all 0.15s ease-out 0s;
+            color: rgb(89, 89, 89);
+            font-weight: 600;
+            text-align: left;
+        }
+
+        .css-1u7su48 {
+            margin: 0px;
+            font-size: 1rem;
+            /* line-height: 3.2rem; */
+            font-family: Inter, system-ui, BlinkMacSystemFont, Roboto, "Helvetica Neue", "Segoe UI", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+            font-weight: 400;
+            cursor: default;
+            transition: all 0.15s ease-out 0s;
+            color: rgb(51, 51, 51);
+        }
+
+
+
+
+        .css-15ydeke:nth-of-type(2n+1) {
+            background: rgb(255, 255, 255);
+            padding-top: 30px;
+        }
+
+        .css-15ydeke {
+            padding: 12rem 0px;
+        }
+
+        .css-13g0rrm {
+            font-family: Inter;
+            font-weight: 500;
+            font-size: 4rem;
+            line-height: 5.6rem;
+            letter-spacing: -0.26px;
+            cursor: default;
+            transition: all 0.15s ease-out 0s;
+            color: rgb(51, 51, 51);
+            max-width: 60rem;
+            text-align: center;
+            margin: 2rem auto 0px;
+        }
+
+        .css-6ta70c {
+            font-size: 1.4rem;
+            line-height: 3.2rem;
+            font-family: Inter, system-ui, BlinkMacSystemFont, Roboto, "Helvetica Neue", "Segoe UI", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+            font-weight: 400;
+            cursor: default;
+            transition: all 0.15s ease-out 0s;
+            color: rgb(51, 51, 51);
+            text-align: center;
+            margin: 1.4rem auto 3.6rem;
+            max-width: 70rem;
+        }
+
+        .css-1jdqpz9 {
+            display: flex;
+            -webkit-box-pack: justify;
+            justify-content: space-between;
+            margin-top: 2.7rem;
+        }
+
+        /* .wrapper {
+            margin-left: auto;
+            margin-right: auto;
+            max-width: 130rem;
+            overflow: hidden;
+            padding: 3rem 2.4rem 2.4rem;
+            width: 100%;
+        } */
+
+        .css-1n47nxv.small {
+            max-width: 25rem;
+            flex-direction: column;
+            box-shadow: rgba(0, 0, 0, 0.15) 5px 5px 3px;
+            border-radius: 5px;
+        }
+
+        .css-1n47nxv {
+            display: flex;
+            -webkit-box-pack: justify;
+            justify-content: space-between;
+            -webkit-box-align: center;
+            align-items: center;
+            max-width: 84rem;
+            text-align: left;
+            margin: 0px auto;
+            overflow: hidden;
+        }
+
+        .css-ez8oci {
+            width: 38rem;
+            /* height: 23.3rem; */
+            cursor: pointer;
+        }
+
+        audio,
+        canvas,
+        embed,
+        iframe,
+        img,
+        object,
+        svg,
+        video {
+            display: inline;
+            vertical-align: initial;
+        }
+
+        .css-2cnub6.small {
+            padding: 0px 2rem 4rem;
+        }
+
+        .css-2cnub6 {
+            max-width: 40rem;
+        }
+
+        .css-fual6w.small {
+            height: 10rem;
+        }
+
+        .css-fual6w {
+            margin: 0px;
+            font-size: 1.3rem;
+            font-family: Inter, system-ui, BlinkMacSystemFont, Roboto, "Helvetica Neue", "Segoe UI", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+            transition: all 0.15s ease-out 0s;
+            color: rgb(51, 51, 51);
+            font-weight: 600;
+            cursor: pointer;
+            line-height: 2.8rem;
+            display: table-cell;
+            vertical-align: bottom;
+        }
+
+        .css-ezmheo {
+            margin: 0px 0px 0.5rem;
+            font-weight: 400;
+            /* font-size: 1.4rem; */
+            line-height: 2.6rem;
+            font-family: Inter, system-ui, BlinkMacSystemFont, Roboto, "Helvetica Neue", "Segoe UI", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+            cursor: default;
+            transition: all 0.15s ease-out 0s;
+            color: rgb(89, 89, 89);
+        }
+
+        .css-1rtxmbk {
+            margin: 0px 0px 2.2rem;
+            font-weight: 400;
+            /* font-size: 1.6rem; */
+            line-height: 2.6rem;
+            font-family: Inter, system-ui, BlinkMacSystemFont, Roboto, "Helvetica Neue", "Segoe UI", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+            cursor: default;
+            transition: all 0.15s ease-out 0s;
+            color: rgb(89, 89, 89);
+            overflow: hidden;
+            text-overflow: ellipsis;
+            display: -webkit-box;
+            -webkit-line-clamp: 2;
+            -webkit-box-orient: vertical;
+        }
+
+        .css-1mupzj0 {
+            display: inline-flex;
+            -webkit-box-align: center;
+            align-items: center;
+            -webkit-box-pack: center;
+            justify-content: center;
+            position: relative;
+            box-sizing: border-box;
+            -webkit-tap-highlight-color: transparent;
+            outline: 0px;
+            margin: 0px;
+            cursor: pointer;
+            user-select: none;
+            vertical-align: middle;
+            appearance: none;
+            text-decoration: none;
+            font-family: Inter, system-ui, BlinkMacSystemFont, Roboto, "Helvetica Neue", "Segoe UI", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+            min-width: 64px;
+            border-radius: 6px;
+            transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1) 0ms, box-shadow 250ms cubic-bezier(0.4, 0, 0.2, 1) 0ms, border-color 250ms cubic-bezier(0.4, 0, 0.2, 1) 0ms, color 250ms cubic-bezier(0.4, 0, 0.2, 1) 0ms;
+            border: 1px solid rgb(235, 113, 6);
+            font-size: 16px;
+            font-weight: 600;
+            line-height: 1;
+            padding: 16px 28px;
+            text-transform: inherit;
+            color: rgb(235, 113, 6);
+            background-color: rgb(255, 255, 255);
+            width: 12.5rem;
+        }
+
+
+
+        .css-8kmcxp {
+            padding: 12rem 0px;
+            background: rgb(231, 246, 254) !important;
+        }
+
+        .css-iq2cbg {
+            display: flex;
+        }
+
+        /* .wrapper {
+            margin-left: auto;
+            margin-right: auto;
+            max-width: 130rem;
+            overflow: hidden;
+            padding: 3rem 2.4rem 2.4rem;
+            width: 100%;
+        } */
+
+        .css-1xmyx1a:first-of-type {
+            margin-right: 3rem;
+        }
+
+        .css-1xmyx1a {
+            background: rgb(255, 255, 255);
+            border-radius: 2rem;
+            text-align: left;
+            padding: 5rem 5rem 6rem 4rem;
+            width: 700px;
+        }
+
+        .css-o19ui2 {
+            margin: 0px;
+            font-family: Inter, system-ui, BlinkMacSystemFont, Roboto, "Helvetica Neue", "Segoe UI", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+            cursor: default;
+            transition: all 0.15s ease-out 0s;
+            color: rgb(49, 49, 68);
+            font-weight: 600;
+            font-size: 2rem !important;
+            line-height: 3rem !important;
+        }
+
+        .css-18y8f2p {
+            font-weight: 400;
+            font-family: Inter, system-ui, BlinkMacSystemFont, Roboto, "Helvetica Neue", "Segoe UI", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+            cursor: default;
+            transition: all 0.15s ease-out 0s;
+            font-size: 16px;
+            line-height: 26px;
+            color: rgb(49, 49, 68);
+            margin: 2rem auto;
+        }
+
+        .css-69i1ev {
+            display: flex;
+            -webkit-box-pack: justify;
+            justify-content: space-between;
+            -webkit-box-align: center;
+            align-items: center;
+        }
+
+        .css-107s4f6 {
+            display: inline-flex;
+            -webkit-box-align: center;
+            align-items: center;
+            -webkit-box-pack: center;
+            justify-content: center;
+            position: relative;
+            box-sizing: border-box;
+            -webkit-tap-highlight-color: transparent;
+            outline: 0px;
+            margin: 0px;
+            cursor: pointer;
+            user-select: none;
+            vertical-align: middle;
+            appearance: none;
+            text-decoration: none;
+            font-family: Inter, system-ui, BlinkMacSystemFont, Roboto, "Helvetica Neue", "Segoe UI", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+            min-width: 64px;
+            border-radius: 6px;
+            transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1) 0ms, box-shadow 250ms cubic-bezier(0.4, 0, 0.2, 1) 0ms, border-color 250ms cubic-bezier(0.4, 0, 0.2, 1) 0ms, color 250ms cubic-bezier(0.4, 0, 0.2, 1) 0ms;
+            border: 1px solid rgb(235, 113, 6);
+            font-size: 16px;
+            font-weight: 600;
+            line-height: 1;
+            padding: 16px 28px;
+            text-transform: inherit;
+            color: rgb(235, 113, 6);
+            background-color: rgb(255, 255, 255);
+            width: 12.5rem;
+            height: 3.5rem;
+        }
+
+        .css-4hizd4 {
+            height: 6rem;
+        }
+
+        .css-2gw07p {
+            display: flex;
+            padding-top: 1rem;
+        }
+
+        .css-vokfo6 {
+            height: 3.3rem;
+            width: 4.4rem;
+            margin-right: 3rem;
+            background: url(/imgs/media/twitter.png) center center / contain no-repeat;
+        }
+
+        .css-5e6zl1 {
+            height: 3.3rem;
+            width: 4.4rem;
+            margin-right: 3rem;
+            background: url(/imgs/media/discord.png) center center / contain no-repeat;
+        }
+
+        .css-aqevcd {
+            height: 3.3rem;
+            width: 4.4rem;
+            margin-right: 3rem;
+            background: url(/imgs/media/github.png) center center / contain no-repeat;
+        }
+
+        .css-34z9wu {
+            height: 3.3rem;
+            width: 4.4rem;
+            margin-right: 3rem;
+            background: url(/imgs/media/youtube.png) center center / contain no-repeat;
+        }
+
+        h6 {
+            display: block;
+            font-size: 1.67em;
+            margin-block-start: 2.33em;
+            margin-block-end: 2.33em;
+            margin-inline-start: 0px;
+            margin-inline-end: 0px;
+            font-weight: bold;
+        }
+
+        .css-pa4v5d {
+            display: inline-flex;
+            -webkit-box-align: center;
+            align-items: center;
+            -webkit-box-pack: center;
+            justify-content: center;
+            position: relative;
+            box-sizing: border-box;
+            -webkit-tap-highlight-color: transparent;
+            outline: 0px;
+            border: 0px;
+            margin: 0px;
+            cursor: pointer;
+            user-select: none;
+            vertical-align: middle;
+            appearance: none;
+            text-decoration: none;
+            font-family: Inter, system-ui, BlinkMacSystemFont, Roboto, "Helvetica Neue", "Segoe UI", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+            min-width: 64px;
+            border-radius: 6px;
+            transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1) 0ms, box-shadow 250ms cubic-bezier(0.4, 0, 0.2, 1) 0ms, border-color 250ms cubic-bezier(0.4, 0, 0.2, 1) 0ms, color 250ms cubic-bezier(0.4, 0, 0.2, 1) 0ms;
+            color: rgb(255, 255, 255);
+            background-color: rgb(235, 113, 6);
+            font-size: 16px;
+            font-weight: 600;
+            padding: 16px 28px;
+            text-transform: inherit;
+            width: max-content;
+            box-shadow: none;
+            line-height: 18px;
+        }
+    </style>
+</body>
